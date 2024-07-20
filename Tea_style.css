@@ -1,0 +1,131 @@
+* {
+    color: seashell;
+    opacity: 0.9;
+}
+body {
+    margin: 0;
+    background: black;
+    font-size: 22px;
+    font-family: helvetica;
+    color: seashell;
+
+}
+header {
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    z-index: 1;
+    opacity: 1;
+}
+.logo {
+    padding-left: 10px;
+}
+nav {
+    padding-right: 10px;
+    text-decoration: underline;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+}
+li a {
+    display: flex;
+    padding-left: 10px;
+}
+.Container1 {
+    top: 69px;
+    background-image: url(Img/img-mission-background.jpg);
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto 50px;
+}
+.Our_Mission {
+    background: black;
+    position: relative;
+    top: 300px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 1; 
+}
+h2, h2, h3, h4 {
+    margin: 10px;
+    text-align: center;
+    }
+.Container2 {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img {
+    padding: 10px;
+}
+p {
+    text-align: center;
+    margin: 5px;
+}
+.Container3 {
+    background-image: url(Img/img-locations-background.jpg);
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+}
+.Container3 h2 {
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+.Locations {
+   margin: 0;
+   padding: 0;
+   position: relative;
+}
+.Locs {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 110px;
+    opacity: 1;
+}
+.Loc {
+    width: 300px;
+    height: 300px;
+    background: black;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    white-space: nowrap;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+.Tea_Cozy {
+    background: black;
+    height: 200px;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    opacity: 1;
+}
+h5 {
+    text-align: center;
+    margin-bottom: 10px;
+    }
+footer {
+   width: 100%;
+    margin: 20px;
+}
